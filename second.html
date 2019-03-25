@@ -56,10 +56,8 @@
     var pp=document.getElementById("pp");
     var clear=document.getElementById("clear");
     var tt;
-    var number=0;
     cc.onclick=function(){
-        number++;
-        localStorage.setItem("number"+number,text.value);
+        localStorage.setItem(text.value,text.value);
         tt=document.createElement("span");
         tt.innerHTML=text.value;
         text.value="";
