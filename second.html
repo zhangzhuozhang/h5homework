@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        span{
+            line-height: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            background-color:rgb(173, 168, 168); 
+       }
+       #text{
+        border-color:goldenrod;
+        width:200px;
+        height: 30px;
+       }
+       #cc{
+           width:150px;
+           height: 30px;
+       }
+       #div{
+           width:300px;
+       }
+       #clear{
+           width:20px;
+           height: 20px;
+           text-align: center;
+           color:white;
+           font-size:15px;
+           float:right;
+       }
+    </style>
+</head>
+<body>
+    <input type="search" placeholder="请输入想要查找的商品" id="text" list="name">
+    <datalist id="name">
+        <option >娱乐</option>
+        <option >新闻</option>
+        <option >游戏</option>
+        <option >美食</option>
+        <option >旅游</option>
+    </datalist>
+    <input type="button" value="搜索" id="cc">
+    <p>最近搜索</p>
+    <div id="div">
+        <div id="pp"></div>
+        <button id="clear" >x</button>
+    </div>
+</body>
+<script>
+    var text=document.getElementById("text");
+    var cc=document.getElementById("cc");
+    var pp=document.getElementById("pp");
+    var clear=document.getElementById("clear");
+    var tt;
+    var number=0;
+    cc.onclick=function(){
+        number++;
+        localStorage.setItem("number"+number,text.value);
+        tt=document.createElement("span");
+        tt.innerHTML=text.value;
+        text.value="";
+        loadStorage('pp');
+    }
+    clear.onclick=function clearStorage() {
+        localStorage.clear();
+        pp.innerHTML="";
+    }
+    function loadStorage(id){
+        var count=0;
+        var target = document.getElementById(id);
+        var ap=document.getElementsByTagName("span");
+        for(var i=0;i<ap.length;i++)
+        {
+            if(tt.innerHTML==ap[i].innerHTML){
+                count=count+1;
+            }
+        }
+        if(count==0){
+            target.appendChild(tt);
+        }
+    }
+    for(var i=0; i<localStorage.length; i++){
+		var key = localStorage.key(i);
+		var data = localStorage.getItem(key);
+        var ss=document.createElement("span");
+        ss.innerHTML=data;
+        pp.appendChild(ss);
+	}
+
+</script>
+</html>
