@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #wai{
+            overflow: hidden;
+            height:580px;
+            width:512px;
+            box-shadow:0 0 10px gray;
+        }
+        .zhe{
+            width:512px;
+            height:336px;
+            background:rgba(165, 154, 154, 0.2);
+            position: absolute;
+            top:10px;
+            left: 10px;
+            /* transform:scale(0);
+            transition:transform 0.3s linear; */
+            display:none;
+        }
+        #jieshao{
+            width:487px;
+            position: relative;
+            top:-22px;
+            background-color: white;
+            transition: top 1s;
+        }
+        #picture{
+            color:white;
+            width: 80px;
+            height: 50px; 
+            line-height: 50px;
+            background-color:orange;
+            padding-left: 25px;
+            position:absolute;
+            left:8px;
+            top:280px;
+            transition: top 1s;
+        }
+        #aa{
+            color:tomato;
+            font-size: 25px;
+        }
+        img{
+            width:512px;
+            height:336px;
+            transition:all 1s;
+        }
+        span{
+            font-size: 10px;
+            color:rgba(121, 118, 118, 0.719);
+            position:absolute;
+            top:560px;
+        }
+        #uuuu{
+            padding-right: 25px;
+            color:rgba(0,0,0,0);
+            transition: color 1s;
+            line-height:30px;
+        }
+        
+        #wai:hover #uuuu{
+            color:rgba(165, 154, 154, 0.836);
+        }
+        #wai:hover #picture{
+            top: 180px;
+        }
+        #wai:hover #jieshao{
+            top: -122px;
+        }
+        #wai:hover img{
+            transform: scale(1.2);
+        }
+        #wai:hover .zhe{
+            /* transform:scale(1); */
+            display: block;
+        }
+        #shiwu{
+            color:white;
+            background-color:orange;
+            width:55px;
+            height:50px;
+            text-align: center;
+            border-radius: 50%;
+            padding-top:5px;
+            position:absolute;
+            top:30px;
+            left: 430px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="wai">
+        <img src="zhanqiao.jpg" alt="">
+        <div class="zhe"></div>
+        <p id="picture">照片</p>
+        <div style="padding-left: 25px" id="jieshao">
+            <h2>青海栈桥</h2>
+            <p id="aa">国家AAAA级旅游景区</p>
+            <p id="uuuu">
+            青岛栈桥是青岛海滨风景区的景点之一，是国务院于1982年首批公布的国家级风景名胜区，
+            也是首批国家AAAA级旅游景区。青岛栈桥位于游人如织的青岛中山路南端，
+            桥身从海岸探入如弯月般的青岛湾深处。桥身供游人参观并在此停靠旅游船，
+            由此乘船可看海上青岛。
+            </p>
+        </div>
+    </div>
+    <span style="left: 45px">10分钟前</span>
+    <span style="left: 95px;">123评论</span>
+    <p id="shiwu">15<br/>五月</p>
+</body>
+</html>
