@@ -1,0 +1,673 @@
+li{
+    list-style:none;
+}
+
+/* 导航--轮播图  */
+#big{
+    position: relative;
+    width:100%;
+    /* background:rgb(247, 240, 240); */
+}
+#tou{
+    width:100%;
+    height:45px;
+    position: relative;
+    background:black;
+}
+#tou ul{
+    margin-top:10px;
+    float:right;
+}
+#tou li {
+    color:white;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#tou .one{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    background:url(../img/tell.png) no-repeat left center;
+}
+#tou .two{
+    margin-left: 50px;
+    padding-right: 15px;
+    border-right: solid white;
+}
+#tou .three{
+    margin-left: 15px;
+    margin-right: 80px;
+}
+#daohang{
+    padding-top:10px;
+    margin-left: 30px;
+}
+
+#bs-1 li{
+    margin-left: 60px;
+    color:black;
+    font-size:17px;
+}
+.navbar-header .kuai{
+    background-color:red;
+    border:none;
+    font:19px;
+    color:white;
+    padding:10px;
+    float:right;
+    margin-right: 15px;
+    margin-top:8px;
+    border-radius: 5px;
+}
+#lunbo{
+    position: relative;
+}
+/* #lunbo #sousuo{
+    background-color:gainsboro;
+    position: absolute;
+    top:80px;
+    left: 20%;
+    width:580px;
+    height: 50px;
+    box-shadow: 0 0 3px rgb(168, 159, 159);
+}
+#lunbo #sousuo li{
+    font-size:18px;
+    line-height:50px; 
+    float: left;
+    color:grey;
+    margin-left: 15px;
+}
+#lunbo #sousuo .one1{
+    margin-left: 0;
+    width: 135px; */
+    /* background:url(../img/position.png) no-repeat 15%;
+    background-color:rgb(168, 159, 159);
+    padding-left: 50px;
+}·  
+#lunbo #sousou .end2{
+    width:20%;
+    background-color:red;
+    background:url(../img/search.png) no-repeat right; */
+/* } */
+#lunbo h2 {
+    font-weight: lighter;
+    color:white;
+    position: absolute;
+    left: 15%;
+    top:5%;
+}
+#lunbo .font{
+    color:white;
+    position: absolute;
+    left: 15%;
+    top:25%;
+}
+.font .str1{
+    border-top:0.5px solid;
+}
+.font .str2{
+    border-bottom: 0.5px solid;
+}
+#lunbo .str3{
+    color:white;
+    position: absolute;
+    left: 15%;
+    top:30%;
+    font-size:15px;
+}
+/* 热门路线之上，轮播图之下 */
+/* .container{
+    width:100%;
+} */
+.ww img{
+    float: left;
+    width:auto;
+    height:auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+.ww .car{
+   width:20%;
+   height: 100%;
+   background:rgb(21, 21, 124);
+   float: left;
+}
+.car img{
+    margin-left: 25%;
+    margin-top:20%;
+    max-width: 100%
+}
+.car p{
+    color:white;
+    font-size:16px;
+    padding-left: 35%;
+    padding-top:90%
+}
+.car button{
+    color:white;
+    width:50%;
+    padding:4%;
+    border:0.5px solid;
+    border-radius: 5px;
+    background:rgb(21,21,124);
+    margin-left: 25%;
+    margin-top:20%;
+    margin-bottom: 15%;
+}
+.ttt img{
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-top:5%;
+}
+.ttt h3{
+    padding-top:3%;
+    color:rgb(21, 21, 179);
+}
+.ttt p{
+    padding-top:7%;
+    color:gray;
+}
+.ttt button{
+    position: relative;
+    line-height: 210%;
+    left: 70%;
+    top:-60px;
+    width:13%;
+    color:rgb(134, 133, 133);
+    border-radius: 5px;
+    background-color:white;
+    border:0.5px solid;
+
+}
+/* 热门路线   */
+#remen p{
+    font-size:20px;
+}
+#remen .gray{
+    height:8px;
+    width:100%;
+    background-color:rgb(194, 188, 188);
+}
+#remen .hot{
+    text-indent:15px;
+    margin-left: 40%;
+    margin-top:5%;
+}
+#remen .red{
+    padding-left: 4px;
+    margin-top:5%;
+    margin-left: 5%;
+    border-left: 2px red solid;
+}
+
+#sec{
+    color:gray;
+    background-color:white;
+    font-size: 17px;
+    width:20%;
+    line-height: 200%;
+    border:0.5px solid;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top:20%
+}
+#iii .lll{
+    height:75px;
+    width:100%;
+    color:#fff;
+    font-size:18px;
+    background:#000;
+    line-height: 25px;
+    padding-left: 60px;
+    padding-top:12px;
+}
+#ii .rrr{
+    position: absolute;
+    bottom:0;
+    padding-left: 60px;
+    padding-top:12px;
+    height:85px;
+    width:100%;
+    color:#fff;
+    font-size:18px;
+    background:rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+.lishuang img{
+    width:100%;
+    height:auto;
+}
+.way{
+    margin-top:5%;
+    padding:0;
+}
+.col-md-6,.col-md-12{
+    padding:2px;
+}
+
+/* 签证
+ */
+ #qianzheng p{
+    font-size:20px;
+}
+#qianzheng .gray{
+    margin-top:10%;
+    height:8px;
+    width:100%;
+    background-color:rgb(194, 188, 188);
+}
+#qianzheng .hot{
+    text-indent:15px;
+    margin-left: 40%;
+    margin-top:5%;
+}
+#qianzheng .red{
+    padding-left: 4px;
+    margin-top:5%;
+    margin-left: 5%;
+    border-left: 2px red solid;
+}
+#qianzheng .lala{
+    font-size:17px;
+    margin-left: 32%;
+}
+#sss{
+    color:gray;
+    background-color:white;
+    font-size: 17px;
+    width:20%;
+    line-height: 200%;
+    border:0.5px solid;
+    border-radius: 10px;
+    margin-top:5%;
+    margin-left: 40%;
+}
+.huahua{
+    margin-top:5%;
+}
+.huahua img{
+    width:100%;
+}
+.japan{
+    position: absolute;
+    bottom:0;
+    padding-left: 60px;
+    padding-top:23px;
+    height:85px;
+    width:100%;
+    color:#fff;
+    font-size:18px;
+    background:rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+.japan span{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.col-md-12,.pick1{
+    padding-left: 0;
+    padding-right:0;
+}
+.pic img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+/* 使命愿景 */
+#tianshi .hot{
+    margin-top:5%;
+    text-indent:20px;
+    margin-left: 40%;
+    font-size:25px;
+}
+#tianshi .gray{
+    margin-top:10%;
+    height:8px;
+    width:100%;
+    background-color:rgb(194, 188, 188);
+}
+#tianshi .red{
+    font-size:20px;
+    padding-left: 4px;
+    margin-top:5%;
+    margin-left: 5%;
+    border-left: 2px red solid;
+}
+
+
+.ff{
+    padding:0;
+}
+.ff img{
+    width:100%;
+}
+.wan{
+    margin-top:5%;
+}
+
+.wan .con{
+    width:100%;
+    padding-top:5%;
+    padding-right: 5%;
+    padding-left: 15%;
+    color:white;
+    background-color:rgb(60, 60, 148);
+    float: left;
+}
+.con h1{
+    margin-left: 10%;
+}
+.con p{
+    margin-top:5%;
+    font-size:16px;
+    line-height: 200%;
+    margin-bottom:16.7%;
+}
+.yan img{
+    width:auto;
+    max-width: 100%;
+}
+
+/* 三个圆圈 */
+.pc{
+    width:100%;
+    background-color:rgb(21, 21, 75);
+    margin:0;
+    /* padding-top:5%; */
+}
+.pc .yang{
+    float: left;
+    width:33.3%;
+    height:400px;
+    position: relative;
+    color:white
+}
+.tu1{
+    background:url(../img/rorate.png) no-repeat 35% 30%;
+}
+.tu1 img{
+    position: absolute;
+    left: 35%;
+    top:30%;
+}
+.tu1 span{
+    position: absolute;
+    top:50%;
+    left:35%;
+    font-size:15px;
+}
+.tu1 p{
+    position: absolute;
+    top:70%;
+    left: 10%;
+}
+
+.tu2{
+    background:url(../img/rorate.png) no-repeat 35% 30%;
+}
+.tu2 img{
+    position: absolute;
+    left: 35%;
+    top:30%;
+}
+.tu2 span{
+    position: absolute;
+    top:50%;
+    left:35%;
+    font-size:15px;
+}
+.tu2 p{
+    position: absolute;
+    top:70%;
+    left: 15%;
+    text-indent: 15%;
+}
+
+.tu3{
+    background:url(../img/rorate.png) no-repeat 35% 30%;
+}
+.tu3 img{
+    position: absolute;
+    left: 35%;
+    top:30%;
+}
+.tu3 span{
+    position: absolute;
+    top:50%;
+    left:35%;
+    font-size:15px;
+}
+.tu3 p{
+    position: absolute;
+    top:70%;
+    left: 15%;
+    text-indent: 15%;
+}
+.phone{
+    position: absolute;
+    width:100%;
+}
+.phone h2{
+    padding-left: 35%
+}
+.meng{
+    position: relative;
+    height: 150px;
+    border-bottom: 2px solid rgb(145, 142, 142);
+}
+.mm1 img{
+    position: absolute;
+    left: 10%;
+    top:20%;
+}
+.mm1 p{
+    position: absolute;
+    left: 30%;
+    top:20%;
+    line-height: 150%;
+}
+.mm2 img{
+    position: absolute;
+    left: 10%;
+    top:20%;
+}
+.mm2 p{
+    position: absolute;
+    left: 30%;
+    top:30%;
+    line-height: 150%;
+}
+.mm3 img{
+    position: absolute;
+    left: 10%;
+    top:40%;
+}
+.mm3 p{
+    position: absolute;
+    left: 30%;
+    top:40%;
+    line-height: 150%;
+}
+/* 讨厌的黑框框 */
+.ending{
+    position: relative;
+    margin:0;
+    background-color:black;
+    height:350px;
+}
+.xiaohei{
+    color:white;
+}
+.hhh{
+    font-size: 16px;
+}
+.grenn{
+    margin-top:2%;
+}
+.rrll li{
+    font-size:15px;
+    float: left;
+}
+.stop{
+    background:black;
+    height:100px;
+    border-top:0.5px solid rgb(129, 127, 127);
+}
+.stop p{
+    color:white;
+    text-align: center;
+    line-height: 100px;
+}
+ .small{
+    position: absolute;
+    background-color:black;
+    width:100%;
+    height:300px;
+    top:110%;
+}
+.small p{
+    font-size: 20px;
+    position: absolute;
+    color:white;
+    top:20%;
+    left: 30%;
+    line-height: 30px;
+}
+.small span{
+    color:white;
+    position: absolute;
+    left: 33%;
+    top:40%;
+    font-size:20px;
+    line-height: 30px;
+} 
+
+
+
+
+
+
+
+
+@media screen and (max-width:350px){
+    #lunbo h2{
+        font-size:70%;
+    }
+}
+
+@media screen and (min-width:681px){
+    .kuai{
+        display:none;
+    }
+    #lunbo .str3{
+        display: none;
+    }
+    .container>.ttt{
+        display:none;
+    }
+    #remen .red{
+        display:none;
+    }
+    #remen .gray{
+        display:none;
+    }
+    #sec{
+        display: none;
+    }
+    #qianzheng .red{
+        display: none;
+    }
+    #qianzheng .gray{
+        display:none;
+    }
+    #tianshi .gray{
+        display: none;
+    }
+    #tianshi .red{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .small{display: none;}
+}
+@media screen and (max-width:680px){
+    #tou{
+        display: none;
+    }
+    #lunbo h2{
+        font-size: 150%;
+    }
+    #lunbo .font{
+        display: none;
+    }
+    .font .str3{
+        display: inline-block;
+    }
+    .ww>img{
+        display: none;
+    }
+    .ww>.car{
+        display:none;
+    }
+    .ttt button{
+        left:75%;
+        bottom: 30%;
+    }
+    #remen .hot{
+        display: none;
+    }
+    #ii{
+        display: none;
+        overflow: hidden;
+    }
+    
+    #sec{
+        font-size:13px;
+    }
+    #qianzheng .hot{
+        display: none;
+    }
+    #qianzheng .lala{
+        display: none;
+    }
+    .pic{
+        display: none;
+    }
+    #tianshi .hot{
+        display: none;
+    }
+    .quchu{
+        display: none;
+    }
+    .wan .con{
+        background-color: white;
+        color:rgb(13, 13, 83);
+    }
+    .container .pc{
+        display: none;
+        overflow: hidden;
+    }
+    .ending,.stop{
+        display: none;
+    }
+    
+    
+    
+    
+}
+@media screen and (min-width:680) and (max-width:1000){
+    .container .car{
+        width:40%;
+    }
+    .car p{
+        padding-top:80%;
+    }
+    .ttt{
+        display: inline;
+    }
+}
+
